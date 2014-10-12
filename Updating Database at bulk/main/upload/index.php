@@ -152,7 +152,7 @@ session_start();
 <body>
  <?php
 		require('dbconnect.php');
-		$handle = fopen("final.sua", "r");
+		$handle = fopen("final.sas", "r");
 		if ($handle) 
 		{
 			$Num_to_insert=0;
